@@ -1,90 +1,188 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="stylesheet.css">
+            <meta charset="utf-8">
+            <title>Progate</title>
+        </head>
+
+        <body>
+            <header class="header-nav">
+                <div class="header-top">さとこーの自己紹介ページ</div>
+                <nav><a href="#first-block">トップ</a></nav>
+                <nav><a href="#second-block">現在の私</a></nav>
+                <nav><a href="#third-block">過去の私</a></nav>
+                <nav><a href="#forth-block">趣味</a></nav>
+            </header>
+
+            <section id="first-block">
+                <h1><span>さとこー</span>の自己紹介ページ</h1>
+                <p>佐藤光翼(さとうこうすけ)の自己紹介ページです！</p>
+                <br>
+                <p><span>Ko</span>suke <span>Sato</span>から取って、<span>さとこー</span>です。どうぞよろしく</p>
+            </section>
+
+            <section id="second-block">
+                <div class="my_now">
+                    <p class="info-title">
+                        現在の<span>さとこー</span>
+                    </p>
+                    <image src="my_face.jpg" class="my_face"></image>
+                </div>
+                    <div class="about-container">
+                    <p class="info-text">
+                        <b>東洋大学経営学部3年</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            会計ファイナンス学科<br>
+                            管理会計専攻！
+                            <br>
+                            <br>
+                            天文サークルに所属中<br>無事幽霊部員化
+                        </span>
+                    </p>
+                    <p class="info-text">
+                        <b>自称個性派</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            ファッションとか聞く曲とかは<br>
+                            個性的なのが好き！
+                            <br>
+                            <br>
+                            就活に伴いロン毛卒業<br>髪型は個性が消滅(涙)
+                        </span>
+                    </p>
+                    <p class="info-text">
+                        <b>25卒 就活中</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            大変なことも多いけど<br>
+                            のんびり頑張り中！
+                            <br>
+                            <br>
+                            25卒の皆さん<br>一緒に頑張っていきましょう！
+                        </span>
+                    </p>
+                </div>
+            </section>
+
+            <section id="third-block">
+                <div class="my_now">
+                    <p class="info-title">
+                        過去の<span>さとこー</span>
+                    </p>
+                    <image src="isesaki.jpg" class="isesaki"></image>
+                </div>
+                    <div class="about-container">
+                    <p class="info-text">
+                        <b>群馬県出身</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            2002年12月29日<br>
+                            群馬県伊勢崎市生まれ
+                            <br>
+                            <br>
+                            最寄り駅が無人駅だったから<br>東京の駅で大興奮
+                        </span>
+                    </p>
+                    <p class="info-text">
+                        <b>さとこーがやってた部活</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            陸上競技部でした！<br>
+                            100,200,走幅跳,4継やってました
+                            <br>
+                            <br>
+                            長距離走拒否短距離走全振系<br>趣味でフットサルもやったり
+                        </span>
+                    </p>
+                    <p class="info-text">
+                        <b>英語が苦手すぎて必修落とす</b>
+                        <br>
+                        <span class="font-small">
+                            <br>
+                            英語が苦手です<br>
+                            後期頑張って取得します
+                            <br>
+                            <br>
+                            英語得意な方<br>困ってたら助け下さい
+                        </span>
+                    </p>
+                </div>
+            </section>
+
+            <section id="forth-block">
+                <p class="events-title">
+                    いくつかの趣味
+                </p>
+                <div class="event-container">
+                    <div class="event">
+                        <image src="football.jpg" class="event-image">
+                        <p class="event-name">
+                            <span>ズボン集め</span>
+                            <br>
+                            <br>
+                            古着のズボンが好きで集めてます!<br>
+                            <br>
+                            複数のズボンを縫合した個性的なのが好き<br>
+                            <br>
+                            <a href="https://www.instagram.com/k__.m.10/" target="_blank">
+                                <span class="fa fa-instagram"></span>
+                                ぜひinstagram覗いてみてね！</a>
+                        </p>
+                    </div>
+                    <div class="event">
+                        <p class="event-name">
+                            <span>カーディストリー</span>
+                            <br>
+                            <br>
+                            カーディストリーはトランプを使った曲芸です<br>
+                            <br>
+                            指先の技術でトランプの束を自在に操る<br>
+                            <br>
+                            アメリカや東南アジアで人気のエンタメ
+                        </p>
+                        <image src="cardistory.jpg" class="event-image">
+                    </div>
+                    <div class="event">
+                        <image src="football.jpg" class="event-image">
+                        <p class="event-name">
+                            <span>海外サッカー観戦</span>
+                            <br>
+                            <br>
+                            主にイングランドのクラブの試合を見ていて<br>
+                            <br>
+                            Arsenalというチームを応援しています<br>
+                            <br>
+                            サッカー観戦好きな方仲良くしましょう
+                        </p>
+                    </div>
+                    <div class="event">
+                        <p class="event-name">
+                            <span>ビリヤード</span>
+                            <br>
+                            <br>
+                            まだ下手っぴだけど、ゆる～く楽しんでます<br>
+                            <br>
+                            個人的に9ボールが好きだけど<br>
+                            <br>
+                            最近はローカルルールでよく遊ぶ
+                        </p>
+                        <image src="my_page.jpg" class="event-image">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>Copyright © KosukeSato All Rights Reserved.</p>
+                <p>さとこーの自己紹介ページ</p>
+                <p>instagram  <a href="https://www.instagram.com/k__.m.10/" target="_blank"><span class="fa fa-instagram"></span>k__.m.10</a>
+                <br>
+            </footer>
+        </body>
+    </html>
